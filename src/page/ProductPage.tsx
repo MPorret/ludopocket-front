@@ -13,7 +13,7 @@ const ProductPage = () => {
       <h1>{id}</h1>
       {product && (
         <div>
-          <img src={product.product_img} />
+          <img src={product.product_img} alt={id} />
           <p>{product.product_description}</p>
         </div>
       )}
